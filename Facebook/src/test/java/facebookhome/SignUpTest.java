@@ -1,0 +1,15 @@
+package facebookhome;
+
+import Facebook.FacebookHome;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.testng.annotations.Test;
+
+public class SignUpTest extends FacebookHome {
+
+    @Test
+    public void testSignUp(){
+        driver.findElement(By.xpath("*//input[starts-with(@id,'u_0_')]")).sendKeys("Sign Up", Keys.ENTER);
+    }
+
+}

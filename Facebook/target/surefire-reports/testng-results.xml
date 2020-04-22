@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook Test Automation Script" duration-ms="58942" started-at="2020-04-20T23:44:27Z" finished-at="2020-04-20T23:45:26Z">
+    <groups>
+    </groups>
+    <test name="Facebook" duration-ms="58942" started-at="2020-04-20T23:44:27Z" finished-at="2020-04-20T23:45:26Z">
+      <class name="facebookhome.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:facebookhome.LoginTest@6fb554cc]" name="setUp" is-config="true" duration-ms="9884" started-at="2020-04-20T23:44:27Z" finished-at="2020-04-20T23:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTypingOnLogIn()[pri:0, instance:facebookhome.LoginTest@6fb554cc]" name="testTypingOnLogIn" duration-ms="360" started-at="2020-04-20T23:44:37Z" finished-at="2020-04-20T23:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTypingOnLogIn -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:facebookhome.LoginTest@6fb554cc]" name="cleanUp" is-config="true" duration-ms="4309" started-at="2020-04-20T23:44:38Z" finished-at="2020-04-20T23:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- facebookhome.LoginTest -->
+      <class name="facebookhome.LinkTest2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:facebookhome.LinkTest2@2d554825]" name="setUp" is-config="true" duration-ms="8074" started-at="2020-04-20T23:45:13Z" finished-at="2020-04-20T23:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkFb()[pri:0, instance:facebookhome.LinkTest2@2d554825]" name="linkFb" duration-ms="1165" started-at="2020-04-20T23:45:21Z" finished-at="2020-04-20T23:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkFb -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:facebookhome.LinkTest2@2d554825]" name="cleanUp" is-config="true" duration-ms="4128" started-at="2020-04-20T23:45:22Z" finished-at="2020-04-20T23:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- facebookhome.LinkTest2 -->
+      <class name="facebookhome.LinkTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:facebookhome.LinkTest@77b52d12]" name="setUp" is-config="true" duration-ms="8289" started-at="2020-04-20T23:45:00Z" finished-at="2020-04-20T23:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="link()[pri:0, instance:facebookhome.LinkTest@77b52d12]" name="link" duration-ms="63" started-at="2020-04-20T23:45:09Z" finished-at="2020-04-20T23:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:facebookhome.LinkTest@77b52d12]" name="cleanUp" is-config="true" duration-ms="4131" started-at="2020-04-20T23:45:09Z" finished-at="2020-04-20T23:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- facebookhome.LinkTest -->
+      <class name="facebookhome.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:facebookhome.SignUpTest@614c5515]" name="setUp" is-config="true" duration-ms="12082" started-at="2020-04-20T23:44:42Z" finished-at="2020-04-20T23:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSignUp()[pri:0, instance:facebookhome.SignUpTest@614c5515]" name="testSignUp" duration-ms="2174" started-at="2020-04-20T23:44:54Z" finished-at="2020-04-20T23:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:facebookhome.SignUpTest@614c5515]" name="cleanUp" is-config="true" duration-ms="4242" started-at="2020-04-20T23:44:56Z" finished-at="2020-04-20T23:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- facebookhome.SignUpTest -->
+    </test> <!-- Facebook -->
+  </suite> <!-- Facebook Test Automation Script -->
+</testng-results>

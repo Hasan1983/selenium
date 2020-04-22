@@ -8,8 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Facebook" />
         <module name="generic" />
+        <module name="AutomationPractice" />
+        <module name="W3school" />
         <module name="Cnn" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutomationPractic" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

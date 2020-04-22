@@ -1,10 +1,11 @@
 package search;
 
-import Cnn.CnnHome;
+import Base.CommonApi;
+
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class CnnNews extends CnnHome {
+public class CnnNews extends CommonApi {
 
     @Test
     public void find(){

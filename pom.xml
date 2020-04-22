@@ -12,6 +12,9 @@
         <module>generic</module>
         <module>Facebook</module>
         <module>Cnn</module>
+        <module>W3school</module>
+        <module>Automationpractic</module>
+        <module>AutomationPractice</module>
     </modules>
 
 

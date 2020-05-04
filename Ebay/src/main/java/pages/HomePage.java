@@ -1,7 +1,10 @@
 package pages;
+import Base.CommonApi;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
+
 public class HomePage {
 
     @FindBy(how = How.CSS, using = ".hl-cat-nav__container li:nth-child(2)")
@@ -39,7 +42,9 @@ public class HomePage {
     @FindBy(how=How.CSS,using = "#gh-ug-flex > a")
     public static WebElement RegisterTabWebElement;
 
-    public static WebElement getSavedTabWebElement() { return SavedTabWebElement; }
+    public WebElement getSavedTabWebElement() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonApi.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return SavedTabWebElement; }
     public static WebElement getMotorsTabWebElement() { return MotorsTabWebElement; }
     public static WebElement getFashionTabWebElement() { return FashionTabWebElement; }
     public static WebElement getElectronicsTabWebElement() { return ElectronicsTabWebElement; }
@@ -52,8 +57,12 @@ public class HomePage {
     public static WebElement getDealsTabWebElement() { return DealsTabWebElement; }
     public static WebElement getRegisterTabWebElement() { return RegisterTabWebElement; }
 
-    public void clickOnSavedTab() { getSavedTabWebElement().click(); }
-    public void clickOnMotorsTab() { getMotorsTabWebElement().click(); }
+    public void clickOnSavedTab() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonApi.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        getSavedTabWebElement().click(); }
+    public void clickOnMotorsTab() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonApi.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        getMotorsTabWebElement().click(); }
     public void clickOnFashionTab() { getFashionTabWebElement().click(); }
     public void clickOnElectronicsTab() { getElectronicsTabWebElement().click();}
     public void clickOnArtTab() { getArtTabWebElement().click(); }

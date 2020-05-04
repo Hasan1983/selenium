@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Facebook" />
         <module name="generic" />
+        <module name="Facebook" />
         <module name="AutomationPractice" />
-        <module name="W3school" />
         <module name="Cnn" />
+        <module name="Ebay" />
+        <module name="W3school" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

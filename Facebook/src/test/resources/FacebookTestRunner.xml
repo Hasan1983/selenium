@@ -9,11 +9,10 @@
 
         <classes>
 
-            <class name="facebookhome.LoginTest" />
+            <!--<class name="facebookhome.LoginTest" />
             <class name="facebookhome.SignUpTest" />
-            <class name="facebookhome.LinkTest" />
+            <class name="facebookhome.LinkTest" />-->
             <class name="facebookhome.LinkTest2" />
-
         </classes>
 
     </test>

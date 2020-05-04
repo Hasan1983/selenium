@@ -11,7 +11,7 @@ public class DressPage extends CommonApi {
     }
       public void selectItem(){
         a();
-        String Item=driver.findElement(By.cssSelector(".product_list.grid.row li:nth-child(1)")).getText();
+        String Item=driver.findElement(By.cssSelector(".product_list.grid.row li")).getText();
         System.out.println(Item);
     }
 

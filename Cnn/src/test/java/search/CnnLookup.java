@@ -2,13 +2,6 @@ package search;
 
 import Base.CommonApi;
 
-import data.TestData;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.testng.annotations.Test;
-
-import java.util.List;
-
 public class CnnLookup extends CommonApi {
 
    /* @Test

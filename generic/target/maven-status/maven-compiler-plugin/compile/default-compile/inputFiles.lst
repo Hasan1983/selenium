@@ -1,7 +1,10 @@
-C:\Users\hasan\Desktop\Automation2020\generic\src\main\java\datasources\ConnectToSqlDB.java
-C:\Users\hasan\Desktop\Automation2020\generic\src\main\java\Base\CommonApi.java
-C:\Users\hasan\Desktop\Automation2020\generic\src\main\java\reporting\ManageReport.java
-C:\Users\hasan\Desktop\Automation2020\generic\src\main\java\datasources\ConnectToExcelFile.java
-C:\Users\hasan\Desktop\Automation2020\generic\src\main\java\datasources\ConnectToGoogleDrive.java
-C:\Users\hasan\Desktop\Automation2020\generic\src\main\java\datasources\User.java
-C:\Users\hasan\Desktop\Automation2020\generic\src\main\java\datasources\Student.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\datasources\ConnectToExcelFile.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\datasources\ConnectToGoogleDrive.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\reporting\ApplicationLog.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\datasources\User.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\reporting\ExtentManager.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\datasources\Student.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\reporting\ExtentTestManager.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\Base\CommonApi.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\reporting\TestLogger.java
+C:\Users\hasan\Desktop\Hasan Sohel\selenium\generic\src\main\java\datasources\ConnectToSqlDB.java

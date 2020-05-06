@@ -1,5 +1,10 @@
+reporting\ExtentManager.class
 datasources\ConnectToSqlDB.class
+reporting\ExtentTestManager.class
+reporting\ApplicationLog.class
 datasources\ConnectToExcelFile.class
 datasources\ConnectToGoogleDrive.class
 datasources\User.class
+reporting\TestLogger.class
+Base\CommonApi.class
 datasources\Student.class

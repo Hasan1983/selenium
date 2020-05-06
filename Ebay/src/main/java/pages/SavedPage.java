@@ -10,13 +10,8 @@ import reporting.TestLogger;
 
 public class SavedPage {
     HomePage homePage=null;
-    @FindBy(how = How.CSS, using = ".hl-cat-nav__container li:nth-child(2)")
-    public static WebElement SavedTabWebElement;
-
-    public WebElement getSavedTabWebElement() {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonApi.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        return SavedTabWebElement; }
-
+   /* @FindBy(how = How.CSS, using = ".hl-cat-nav__container li:nth-child(2)")
+    public static WebElement SavedTabWebElement;*/
 
     public void readNValidateSaved(WebDriver driver) {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonApi.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

@@ -490,7 +490,7 @@ public class CommonApi {
     }
 
     //get Links
-    public void getLinks(String locator) {
+    public static void getLinks(String locator) {
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
 

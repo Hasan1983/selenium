@@ -47,7 +47,7 @@ public class SearchPage {
             //verification
         }*/
 //}
-       public void searchItemsAndSubmitButton1()throws Exception, IOException, SQLException, ClassNotFoundException{
+      /* public void searchItemsAndSubmitButton1()throws Exception, IOException, SQLException, ClassNotFoundException{
         List<String> list = DataSource.getItemsListFromDB();
         for(int i=0; i<list.size(); i++) {
             typeItemName(list.get(i));
@@ -56,18 +56,18 @@ public class SearchPage {
             //verification
         }
 
-         }
+         }*/
 
-   /* public void searchItemsAndSubmitButton2() throws Exception, IOException, SQLException, ClassNotFoundException {
+    public void searchItemsAndSubmitButton2() throws Exception, IOException, SQLException, ClassNotFoundException {
         String[] data = DataSource.getDataFromExcelFile();
-        for (int i = 0; i < list.size(); i++) {
-            typeItemName(list.get(i));
+        for (int i = 0; i < data.length; i++) {
+            typeItemName(data[i]);
             clickOnSearch();
             clearInputBox();
             //verification
         }
 
-*/
-        // }
+
+        }
     }
 

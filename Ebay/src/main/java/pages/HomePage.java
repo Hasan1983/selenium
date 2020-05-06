@@ -42,9 +42,7 @@ public class HomePage {
     @FindBy(how=How.CSS,using = "#gh-ug-flex > a")
     public static WebElement RegisterTabWebElement;
 
-    public WebElement getSavedTabWebElement() {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonApi.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        return SavedTabWebElement; }
+    public static WebElement getSavedTabWebElement() { return SavedTabWebElement; }
     public static WebElement getMotorsTabWebElement() { return MotorsTabWebElement; }
     public static WebElement getFashionTabWebElement() { return FashionTabWebElement; }
     public static WebElement getElectronicsTabWebElement() { return ElectronicsTabWebElement; }
@@ -72,6 +70,8 @@ public class HomePage {
     public void clickOnBusinessTab() { getBusinessTabWebElement().click();}
     public void clickOnMusicTab() { getMusicTabWebElement().click();}
     public void clickOnDealsTab() { getDealsTabWebElement().click();}
-    public void clickOnRegister() { getRegisterTabWebElement().click();}
+    public void clickOnRegister() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonApi.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        getRegisterTabWebElement().click();}
 
 }

@@ -14,8 +14,8 @@
     <test name = "Ebay">
 
         <classes>
-          <!--<class name="ebayhome.HomeLinkTest" />-->
-            <!-- <class name="ebayhome.TestSearchPage"/>-->
+          <class name="ebayhome.HomeLinkTest" />
+             <class name="ebayhome.TestSearchPage"/>
                <!-- <class name="ebayhome.TestMotorsPage"/>-->
            <!-- <class name="ebayhome.TestSavedPage"/>-->
           <!-- <class name="ebayhome.TestFashionPage"/>-->
@@ -27,7 +27,7 @@
             <class name="ebayhome.TestBusinessPage"/>
             <class name="ebayhome.TestMusicPage"/>
             <class name="ebayhome.TestDealsPage"/>-->
-            <class name="ebayhome.TestRegisterPage"/>
+            <!--<class name="ebayhome.TestRegisterPage"/>-->
            <!-- <class name="ebayhome.TestCategoryPage"/>-->
         </classes>
 

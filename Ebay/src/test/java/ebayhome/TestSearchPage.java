@@ -16,7 +16,7 @@ public class TestSearchPage extends CommonApi {
     }
 
 
-    @Test
+   /* @Test
     public void searchItems1()throws Exception, IOException, SQLException, ClassNotFoundException{
         SearchPage searchPage = PageFactory.initElements(driver,SearchPage.class);
         searchPage.searchItemsAndSubmitButton1();
@@ -27,7 +27,7 @@ public class TestSearchPage extends CommonApi {
     public void searchItems2()throws Exception, IOException, SQLException, ClassNotFoundException{
         SearchPage searchPage = PageFactory.initElements(driver,SearchPage.class);
         searchPage.searchItemsAndSubmitButton2();
-    }
+    }*/
 }
 
 

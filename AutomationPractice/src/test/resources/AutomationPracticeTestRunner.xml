@@ -8,7 +8,7 @@
     <test name = "AutomationPractice">
 
         <classes>
-           <class name="dress.DressPage"/>
+          <!-- <class name="dress.DressPage"/>-->
         </classes>
 
     </test>

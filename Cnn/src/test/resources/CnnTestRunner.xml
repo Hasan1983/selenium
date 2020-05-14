@@ -9,10 +9,9 @@
 
         <classes>
 
-            <class name=" search.CnnNews" />
-           <!-- <class name=" search.CnnLookup" />
+            <!--<class name=" search.CnnNews" />-->
+          <!--  <class name=" search.CnnLookup" />
 -->
-
         </classes>
 
     </test>

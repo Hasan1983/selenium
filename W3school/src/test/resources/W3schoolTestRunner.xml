@@ -8,7 +8,7 @@
     <test name = "W3school">
 
         <classes>
-            <class name="tableData.TestData"/>
+           <!-- <class name="tableData.TestData"/>-->
         </classes>
 
     </test>

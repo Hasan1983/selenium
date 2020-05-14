@@ -94,8 +94,8 @@ public class CommonApi {
 
     //Browser set up
     public static WebDriver driver = null;
-    public String browserstack_username = "your Browserstack username";
-    public String browserstack_accesskey = "your access key";
+    public String browserstack_username = "hasansohel1";
+    public String browserstack_accesskey = "TvPGe9J58PpdDNgyPNyT";
     public String saucelabs_username = "your Saucelabs user name";
     public String saucelabs_accesskey = "your access key";
 
@@ -117,6 +117,7 @@ public class CommonApi {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
@@ -175,9 +176,7 @@ public class CommonApi {
 
 
     @AfterMethod
-    public void cleanUp(){
-        driver.close();
-    }
+    public void cleanUp(){ driver.close(); }
 
 
     //Selenium API
@@ -277,7 +276,7 @@ public class CommonApi {
         driver.findElement(By.id(locator)).clear();
     }
 
-    public void navigateBack() {
+    public static void navigateBack() {
         driver.navigate().back();
     }
 
@@ -469,7 +468,18 @@ public class CommonApi {
 
     }
 
-    //handling Alert
+    public static void Hover(WebDriver driver,WebElement element){
+        Actions action=new Actions(driver);
+        action.moveToElement(element).perform();
+
+    }
+
+    public static void HoverAndClick(WebDriver driver,WebElement elementToHover,WebElement elementToClick){
+        Actions action=new Actions(driver);
+        action.moveToElement(elementToHover).click(elementToClick).build().perform();
+
+
+    }//handling Alert
     public void okAlert() {
         Alert alert = driver.switchTo().alert();
         alert.accept();

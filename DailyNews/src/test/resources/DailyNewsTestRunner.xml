@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="DailyNews Test Automation Script" parallel="false">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="75"/>
+    <parameter name="url" value="https://www.nydailynews.com/.com"/>
+
+    <test name = "DailyNews">
+
+        <classes>
+           <class name="DailyNewsHome.TestAllFeature" />
+            <!--<class name="DailyNewsHome.TestNewYorkPage" />-->
+         <!--<class name="DailyNewsHome.TestSectionPage" />-->
+        </classes>
+
+    </test>
+
+</suite>
+

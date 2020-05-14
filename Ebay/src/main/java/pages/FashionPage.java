@@ -11,8 +11,6 @@ public class FashionPage {
    /* @FindBy(how = How.CSS, using = "#mainContent > div.hl-cat-nav > ul > li:nth-child(4)")
     public static WebElement FashionTabWebElement;*/
 
-
-
     @FindBy(how = How.XPATH, using = "//a[contains(text(),'Shop Mother')]")
     public static WebElement ShopMomWebElement;
     public static WebElement getShopMomWebElement() { return ShopMomWebElement; }

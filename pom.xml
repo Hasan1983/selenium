@@ -15,6 +15,7 @@
         <module>W3school</module>
         <module>AutomationPractice</module>
         <module>Ebay</module>
+        <module>DailyNews</module>
     </modules>
 
     <dependencyManagement>

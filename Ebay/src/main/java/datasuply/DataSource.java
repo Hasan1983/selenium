@@ -20,7 +20,7 @@ public class DataSource {
         return data;
     }
 
-/*
+
 
     public static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
     public static List<String> getItemsListFromDB()throws Exception, IOException, SQLException, ClassNotFoundException {
@@ -29,6 +29,6 @@ public class DataSource {
         return list;
     }
 
-*/
+
 
 }
